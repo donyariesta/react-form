@@ -1,0 +1,26 @@
+{
+  "name": "react-form",
+  "version": "1.0.0",
+  "description": "Simplify your work at handling the form especially its data. no more headache for handling the state.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/donyariesta/react-form.git"
+  },
+  "keywords": [
+    "package",
+    "react",
+    "form",
+    "data-form",
+    "data-form-state"
+  ],
+  "author": "donyariesta",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/donyariesta/react-form/issues"
+  },
+  "homepage": "https://github.com/donyariesta/react-form#readme"
+}
