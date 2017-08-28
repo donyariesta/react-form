@@ -7,7 +7,7 @@ Simplify your work at handling the form especially its data. no more headache fo
 ```js
 
 import React, { Component } from 'react';
-import Form from 'services/helpers/easy-form';
+import Form from 'react-form';
 
 class Test extends Component{
     submit(e){
