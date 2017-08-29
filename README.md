@@ -13,7 +13,7 @@ npm install react-form-data-handler
 ```js
 
 import React, { Component } from 'react';
-import Form from 'react-form';
+import Form from 'react-form-data-handler';
 
 class Test extends Component{
     submit(e){
