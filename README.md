@@ -2,6 +2,12 @@
 Simplify your work at handling the form-data. no more headache for managing the state.
 
 
+## Install
+
+```js
+npm install react-form-data-handler
+```
+
 ## Usage
 
 ```js
