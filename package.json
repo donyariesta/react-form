@@ -1,17 +1,18 @@
 {
     "name": "react-form-data-handler",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "Simplify your work at handling the form especially its data. no more headache for handling the state.",
     "repository": {
-        "type": "git",
-        "url": "git+https://github.com/donyariesta/react-form-data-handler.git"
+      "type": "git",
+      "url": "git+https://github.com/donyariesta/react-form-data-handler.git"
     },
     "author": "donyariesta",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/donyariesta/react-form-data-handler/issues"
+      "url": "https://github.com/donyariesta/react-form-data-handler/issues"
     },
     "homepage": "https://github.com/donyariesta/react-form-data-handler#readme",
+
     "keywords": [
         "react-component",
         "react",
@@ -60,6 +61,6 @@
         "react-dom": "~0.14.8 || ^15.0.0"
     },
     "dependencies": {
-        "babel-runtime": "^6.26.0"
+        "babel-runtime": "^6.6.1"
     }
 }
