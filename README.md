@@ -1,5 +1,5 @@
-# react-form
-Simplify your work at handling the form especially its data. no more headache for handling the state.
+# react-form-data-handler
+Simplify your work at handling the form-data. no more headache for managing the state.
 
 
 ## Usage
