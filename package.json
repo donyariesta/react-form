@@ -1,6 +1,6 @@
 {
     "name": "react-form-data-handler",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "description": "Simplify your work at handling the form especially its data. no more headache for handling the state.",
     "repository": {
         "type": "git",
