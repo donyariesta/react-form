@@ -60,12 +60,12 @@ const getInput = (child, ChildData = {}) => {
 }
 
 export const getTargetDataValue = (e, currentValue) => {
-    const eValue = e.target.value;
+    const eValue = e.currentTarget.value;
 
-    if(e.target.type === 'file'){
-        return e.target.files;
-    }else if(e.target.type === 'checkbox'){
-        if(e.target.checked){
+    if(e.currentTarget.type === 'file'){
+        return e.currentTarget.files;
+    }else if(e.currentTarget.type === 'checkbox'){
+        if(e.currentTarget.checked){
             currentValue.push(eValue);
         }else{
             currentValue.map((each, key) =>
@@ -73,11 +73,11 @@ export const getTargetDataValue = (e, currentValue) => {
             );
         }
         return currentValue;
-    }else if(e.target.options && e.target.getAttribute('multiple') !== null){
+    }else if(e.currentTarget.options && e.currentTarget.getAttribute('multiple') !== null){
         var value = [];
-        for (var i = 0, l = e.target.options.length; i < l; i++) {
-            if (e.target.options[i].selected) {
-                value.push(e.target.options[i].value);
+        for (var i = 0, l = e.currentTarget.options.length; i < l; i++) {
+            if (e.currentTarget.options[i].selected) {
+                value.push(e.currentTarget.options[i].value);
             }
         }
         return value;
