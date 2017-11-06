@@ -26,10 +26,17 @@ class Form extends Component{
         let _props = {...this.props};
 
         const children = ef.modifyInputs((child, key) => {
-            return React.cloneElement(child, {
-                key: key,
-                onChange: this.handler.bind(this)
-            })
+            if(child.type === 'button'){
+                return React.cloneElement(child, {
+                    key: key,
+                    onClick: this.handler.bind(this)
+                })
+            }else{
+                return React.cloneElement(child, {
+                    key: key,
+                    onChange: this.handler.bind(this)
+                })
+            }
         }, this.props.children);
         ['stateSetter'].map(x => delete _props[x]);
 
